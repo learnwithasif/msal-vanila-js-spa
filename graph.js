@@ -1,15 +1,10 @@
 // Mock token request configuration (replace with your actual configuration)
 const tokenRequestConfig = {
-    clientId: '7deaaef7-17db-42d2-8674-6a8c991d154b',
+    clientId: 'Paste_Your_Application_ID_Here',
     redirectUri: 'http://localhost:5500/index.html',
     scope: ['openid', 'profile', 'offline_access'],
 };
 
-// Mock graph configuration (replace with your actual configuration)
-//const graphConfig = {
-    //graphMeEndpoint: 'https://graph.microsoft.com/v1.0/me',
-    //graphMailEndpoint: 'https://graph.microsoft.com/v1.0/me/messages',
-//};
 
 // Mock UI update function (replace with your actual implementation)
 function updateUI(response, endpoint) {
@@ -63,7 +58,3 @@ async function callGraphApi(endpoint) {
     }
 }
 
-// Example usage
-// Uncomment and replace with actual implementation when integrating into your app
-// callGraphApi(graphConfig.graphMeEndpoint);
-// callGraphApi(graphConfig.graphMailEndpoint);
