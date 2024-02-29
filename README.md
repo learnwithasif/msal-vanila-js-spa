@@ -1,0 +1,1 @@
+# msal-vanila-js-spa
